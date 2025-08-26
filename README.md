@@ -15,3 +15,13 @@ Tech Stack
 - Git & GitHub
 - Docker (Containerization)
 - GitHub Actions (CI/CD)
+
+Team Roles
+
+| Role                  | Responsibilities |
+|------------------------|------------------|
+| Backend Developer     | Build RESTful APIs, define models, handle business logic |
+| Database Administrator| Design and manage the relational database schema |
+| DevOps Engineer       | Setup Docker, CI/CD pipelines, monitor server resources |
+| API Security Engineer | Ensure APIs are secure (authentication, rate-limiting, data validation) |
+| Technical Writer      | Maintain documentation for endpoints, setup guides, and architecture |
