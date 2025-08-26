@@ -127,3 +127,22 @@ API Security
 - Protects sensitive user information (like passwords and credit card data).
 - Prevents abuse of the booking platform.
 - Ensures trust between users and the system.
+
+CI/CD Pipeline
+
+ What is CI/CD?
+CI/CD stands for Continuous Integration and Continuous Deployment. It automates the process of:
+- Running tests
+- Linting code
+- Building Docker images
+- Deploying to production or staging environments
+
+### Tools Used:
+- **GitHub Actions**: For workflow automation and testing on each push
+- **Docker**: For building containers and deploying consistent environments
+- **Heroku / Railway / Render** (Optional): Platforms for easy deployment
+
+### Benefits:
+- Faster feedback loops
+- Reduced bugs in production
+- Safer, consistent deployments
