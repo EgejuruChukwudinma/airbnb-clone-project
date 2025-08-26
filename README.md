@@ -188,3 +188,21 @@ UI/UX Design Planning
 
 ###  Importance of a User-Friendly Design
 A seamless user experience improves trust and engagement. Clear navigation, responsive layout, and intuitive design reduce booking friction and increase user satisfaction.
+
+Color Styles
+
+- **Primary Color**: `#FF5A5F`
+- **Secondary Color**: `#008489`
+- **Background Color**: `#FFFFFF`
+- **Text Color**: `#222222`
+- **Secondary Text Color**: `#717171`
+
+###  Typography
+
+- **Primary Font**: Circular
+  - **Body Text**: Medium (500), 16px
+  - **Headings**: Bold (700), 24px–32px
+  - **Secondary Text**: Book (400), 14px
+
+###  Why Design Properties Matter
+Understanding the visual identity of a mockup ensures consistency in font use, spacing, and layout. Developers can translate designs accurately from Figma into real code, maintaining brand alignment and UI integrity.
