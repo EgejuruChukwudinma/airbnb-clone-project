@@ -146,3 +146,21 @@ CI/CD stands for Continuous Integration and Continuous Deployment. It automates 
 - Faster feedback loops
 - Reduced bugs in production
 - Safer, consistent deployments
+
+
+Airbnb Clone Project - Frontend
+
+Project Description
+This project is a full-stack clone of the popular accommodation booking platform Airbnb. The frontend scope covers building a responsive and user-friendly interface to allow users to browse property listings, view detailed property information, and complete bookings.
+
+##  Project Goals
+- Implement clean, responsive UI/UX designs
+- Structure a scalable and maintainable frontend architecture
+- Practice teamwork and defined frontend roles
+- Apply best practices in modern frontend development
+
+##  Tech Stack
+- **Frontend**: HTML, CSS, JavaScript (React or similar framework)
+- **Design**: Figma
+- **Version Control**: Git & GitHub
+
