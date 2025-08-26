@@ -82,3 +82,25 @@ Database Design
 - Each **booking** is linked to one **property** and one **user**.
 - Each **review** belongs to one user and one property.
 - Each **payment** is linked to one booking.
+
+Feature Breakdown
+
+1. **User Authentication**
+   - Handles user registration, login, and token-based authentication.
+
+2. **Property Management**
+   - Allows hosts to list, update, or remove properties.
+
+3. **Booking System**
+   - Enables guests to book properties and check availability.
+
+4. **Payment Integration**
+   - Secure processing of payments using third-party services (e.g., Stripe or Paystack).
+
+5. **Review System**
+   - Lets users review properties after staying.
+
+6. **Admin Panel**
+   - For internal management of listings, users, and complaints.
+
+These features help simulate a fully functional booking platform with real-world workflows.
