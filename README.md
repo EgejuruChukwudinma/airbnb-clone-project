@@ -220,3 +220,26 @@ Project Roles and Responsibilities
 | **Product Owner** | Define feature scope, prioritize backlog, liaise with stakeholders |
 | **Scrum Master** | Lead agile ceremonies, clear blockers, track sprint goals |
 
+UI Component Patterns
+
+  Planned Components
+####  Navbar
+- Logo
+- Search bar
+- User navigation menu
+- Responsive hamburger for mobile
+
+####  Property Card
+- Image thumbnail
+- Title and location
+- Price per night
+- Rating stars
+- Favorite (heart) icon
+
+####  Footer
+- Company links
+- Social media icons
+- Copyright
+
+###  Notes on Component Design
+Each component will follow reusable and atomic principles, be responsive across devices, and maintain consistent styling per the Figma design.
