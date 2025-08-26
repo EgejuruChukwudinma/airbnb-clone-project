@@ -206,3 +206,17 @@ Color Styles
 
 ###  Why Design Properties Matter
 Understanding the visual identity of a mockup ensures consistency in font use, spacing, and layout. Developers can translate designs accurately from Figma into real code, maintaining brand alignment and UI integrity.
+
+Project Roles and Responsibilities
+
+| Role | Responsibilities |
+|------|------------------|
+| **Project Manager** | Oversees project timeline, manages task allocation |
+| **Frontend Developers** | Build UI components, ensure responsiveness, follow designs |
+| **Backend Developers** | Develop RESTful APIs, manage server and database logic |
+| **Designers** | Create Figma mockups, maintain the design system |
+| **QA/Testers** | Write and run tests, log bugs, verify functionality |
+| **DevOps Engineers** | Handle deployment, CI/CD pipelines |
+| **Product Owner** | Define feature scope, prioritize backlog, liaise with stakeholders |
+| **Scrum Master** | Lead agile ceremonies, clear blockers, track sprint goals |
+
