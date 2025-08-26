@@ -25,3 +25,14 @@ Team Roles
 | DevOps Engineer       | Setup Docker, CI/CD pipelines, monitor server resources |
 | API Security Engineer | Ensure APIs are secure (authentication, rate-limiting, data validation) |
 | Technical Writer      | Maintain documentation for endpoints, setup guides, and architecture |
+
+Technology Stack
+
+| Technology     | Purpose in the Project |
+|----------------|------------------------|
+| **Django**     | Backend framework used to build APIs, manage models, and handle server logic |
+| **MySQL**      | Relational database to store structured data such as users, properties, and bookings |
+| **GraphQL**    | (Optional) API layer allowing flexible queries between client and server |
+| **Docker**     | Containerizes the project for consistent deployment across machines |
+| **GitHub Actions** | Automates testing and deployment processes (CI/CD) |
+| **Git**        | Version control for team collaboration |
