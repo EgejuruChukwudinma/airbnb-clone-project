@@ -104,3 +104,26 @@ Feature Breakdown
    - For internal management of listings, users, and complaints.
 
 These features help simulate a fully functional booking platform with real-world workflows.
+
+API Security
+ Key Security Measures:
+
+1. **Authentication**
+   - Use JWT (JSON Web Token) or session-based authentication to validate users.
+
+2. **Authorization**
+   - Limit access to protected routes (e.g., only hosts can add listings).
+
+3. **Input Validation**
+   - Sanitize and validate incoming data to prevent SQL injection and XSS.
+
+4. **Rate Limiting**
+   - Prevent brute-force and DDoS attacks by limiting requests per IP.
+
+5. **HTTPS**
+   - Enforce secure communication between client and server.
+
+### Why Security Matters
+- Protects sensitive user information (like passwords and credit card data).
+- Prevents abuse of the booking platform.
+- Ensures trust between users and the system.
