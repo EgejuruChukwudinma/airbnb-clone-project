@@ -36,3 +36,49 @@ Technology Stack
 | **Docker**     | Containerizes the project for consistent deployment across machines |
 | **GitHub Actions** | Automates testing and deployment processes (CI/CD) |
 | **Git**        | Version control for team collaboration |
+
+Database Design
+ Key Entities and Fields
+
+1. **Users**
+   - `id` (PK)
+   - `name`
+   - `email`
+   - `password_hash`
+   - `role` (guest or host)
+
+2. **Properties**
+   - `id` (PK)
+   - `host_id` (FK to Users)
+   - `title`
+   - `description`
+   - `location`
+
+3. **Bookings**
+   - `id` (PK)
+   - `user_id` (FK to Users)
+   - `property_id` (FK to Properties)
+   - `check_in`
+   - `check_out`
+
+4. **Reviews**
+   - `id` (PK)
+   - `user_id` (FK to Users)
+   - `property_id` (FK to Properties)
+   - `rating`
+   - `comment`
+
+5. **Payments**
+   - `id` (PK)
+   - `booking_id` (FK to Bookings)
+   - `amount`
+   - `status`
+   - `payment_method`
+
+### Relationships
+
+- One **user** can have many **properties**.
+- One **user** can make many **bookings**.
+- Each **booking** is linked to one **property** and one **user**.
+- Each **review** belongs to one user and one property.
+- Each **payment** is linked to one booking.
